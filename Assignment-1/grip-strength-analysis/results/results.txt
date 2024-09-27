@@ -1,0 +1,28 @@
+1. Project Overview
+This project analyzes the relationship between grip strength and frailty in female participants. The aim is to determine whether there is a correlation between grip strength and frailty using statistical analysis and visualizations.
+Dataset Description:-
+Participants: 10 female individuals.
+Attributes:
+Height (inches): The height of participants.
+Weight (lbs): The weight of participants.
+Age (years): The age of participants.
+Grip Strength (kg): The grip strength of participants measured in kilograms.
+Frailty: A qualitative measure indicating whether the participant shows frailty (Y/N).
+The dataset was cleaned, and all visualizations and analyses were conducted on this data.
+
+2. Correlation Analysis
+Objective:
+To determine the correlation between grip strength and frailty.
+Result:
+The correlation coefficient between grip strength and frailty was calculated using Pearson correlation:
+Correlation value: -0.77 (A strong negative correlation).
+Interpretation:
+This negative correlation indicates that as grip strength decreases, the likelihood of frailty increases. A stronger grip strength is associated with less frailty.
+
+3. Visualizations and Insights
+1. Histogram of Grip Strength
+Description: This histogram displays the distribution of grip strength values among the 10 participants.
+Insight: The distribution is slightly skewed towards higher grip strength, with most participants having a grip strength in the 20-30 kg range. There is also a noticeable drop for participants with very low grip strength.
+2. Box Plot of Grip Strength by Frailty
+Description: A box plot comparing the grip strength values between frail (Y) and non-frail (N) participants.
+Insight: The plot shows a clear difference in median grip strength between the two groups. Participants marked as frail (Y) have consistently lower grip strength than those marked as non-frail (N).
